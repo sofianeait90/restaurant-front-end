@@ -36,5 +36,8 @@ export const useStyles = makeStyles({
     },
     fontWhite: { color: "#FFFFFF" },
     textFieldCountry: { width: 200, marginBottom: 15 },
+
     textFieldAddress: { width: 500, marginBottom: 15 },
+
+    Progress: { marginLeft: "50%", marginTop: "20%" },
 });

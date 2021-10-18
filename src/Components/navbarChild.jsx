@@ -37,13 +37,13 @@ export default function NavBarChild() {
     <div className={classes.grow}>
       <AppBar className={classes.appBar} position="relative">
         <Toolbar>
-          <Link style={{ color: "#FFFFFF" }} to="/">
+          <Link style={{ color: "#FFFFFF" }} to="/menu">
             <Button className={classes.buttonNavBar}>Menu</Button>
           </Link>
-          <Link style={{ color: "#FFFFFF" }} to="/">
+          <Link style={{ color: "#FFFFFF" }} to="/specialMenu">
             <Button className={classes.buttonNavBar}>Special</Button>
           </Link>
-          <Link style={{ color: "#FFFFFF" }} to="/order">
+          <Link style={{ color: "#FFFFFF" }} to="/rewards">
             <Button className={classes.buttonNavBar}>Rewards</Button>
           </Link>
         </Toolbar>

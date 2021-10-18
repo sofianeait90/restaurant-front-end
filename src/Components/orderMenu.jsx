@@ -1,15 +1,18 @@
 import { Grid, Paper } from "@material-ui/core";
 import { useStyles as styles } from "../Styles/OrderMenuStyles";
+import OrderItem from "./orderItem";
 
 const OrderMenu = () => {
   const classes = styles();
   return (
     <div>
-      <Paper className={classes.paperMenu} variant="outlined">
+      <Paper className={classes.paperMenu}>
         <Grid container spacing={3}>
-          <Grid item xs={5} style={{ marginLeft: 30, marginTop: 20 }}></Grid>
+          <Grid item xs={5} style={{ marginLeft: "12%" }}>
+            <OrderItem />
+          </Grid>
           <Grid item xs={4}>
-            4
+            <OrderItem />
           </Grid>
           <Grid item xs={10}>
             10
